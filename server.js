@@ -19,5 +19,5 @@ app.listen(process.env.PORT,() => {
 })
 
 
-const userRouter=require("./Routers/UserRouter");
-app.use("/api/user",userRouter);
+const UserRouter=require('./Routes/UserRouter');
+app.use('/api/user',UserRouter);
